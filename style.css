@@ -1,0 +1,98 @@
+/* Fondo de la página */
+body {
+  background-color: #f4f7f6;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Tarjeta */
+.container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.description {
+  color: #555;
+  font-size: 14px;
+}
+
+/* Número del contador */
+#contador {
+  font-size: 48px;
+  font-weight: bold;
+  color: #3498db;
+  margin: 10px 0;
+}
+
+/* Contenedor de los botones */
+.botones {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Botón */
+button {
+  background-color: #2ecc71;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(46, 204, 113, 0.3);
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+/* Botón Reiniciar (rojo) */
+#btn-reset {
+  background-color: #e74c3c;
+  box-shadow: 0 4px 6px rgba(231, 76, 60, 0.3);
+}
+
+#btn-reset:hover {
+  background-color: #c0392b;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #e0e0e0;
+}
+
+th {
+  background-color: #f8f9fa;
+  color: #7f8c8d;
+  font-weight: 600;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+td {
+  color: #333;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
